@@ -1,0 +1,155 @@
+
+/*Storefront*/
+
+html{
+    text-align: center;
+    width: 100%;
+}
+body{
+    margin:0 auto; 
+    text-align:left;
+    background-image: url(https://thumbs.gfycat.com/UntidySickHairstreak-size_restricted.gif);
+}
+#final-logo {
+    background-size: cover;
+}
+h1{
+    color:darkorange;
+    text-shadow:3px 3px lightseagreen;
+    font-family: impact, sans-serif;
+    font-size: 500%;
+    text-align: center;
+    letter-spacing: 5.0pt;
+}
+#final-logo img{
+    width: auto;
+    background-repeat: repeat-x;
+}
+
+a.link {color:#ff0000;}
+a.visited {color:#0000ff;}
+a.hover {font-family:monospace;}
+
+#front-header{
+    padding-top: 40px;
+    margin-bottom: 30px;
+}
+
+ ol li{
+     list-style-type: none;
+     display: inline;
+     text-align: center;
+     padding: 50px;
+     justify-content: center;
+     font-size: 200%;
+     font-family: monospace;
+     font-weight: bolder;
+ }
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-image: url(https://www.pngitem.com/pimgs/m/110-1100699_nintendo-switch-png-images-nintendo-switch-clipart-transparent.png);
+    background-size: cover;
+    min-width: 500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold oblique;
+    color: crimson;
+    font-size: large;
+    text-shadow:1px 1px black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+    z-index: 9999;
+}
+span{
+    color: orangered;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+.text-center {
+    text-align: center;
+}
+#nav{
+    color: #848484;
+    font: 16px Roboto, Arial, serif;
+    padding: 20px 0px 0px;
+}
+#final-footer {
+    float: center;
+    width: 100%;
+    background: #ebebeb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color:orangered;
+}
+
+.container-fluid{
+    text-transform: capitalize;
+}
+
+.row h3{
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:darkblue;
+    text-shadow:2px 2px lightseagreen;
+}
+.col-sm-12{
+    text-shadow:2px 2px lightslategray;
+    font-size: 550%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: darkgreen;
+}
+.col-sm-12 h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    text-decoration-style: wavy;
+    text-decoration: gold;
+    color: blue;
+    text-transform: capitalize;
+    font-size: xx-large;
+    font-style: bold oblique;
+}
+.col-sm-4 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: crimson;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+.col-sm-3 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: crimson;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+.sign{
+    text-shadow: darkslategrey;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
